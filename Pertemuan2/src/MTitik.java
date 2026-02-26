@@ -1,7 +1,7 @@
 /* Nama File    : MTitik.Java 
  * Deskripsi    : berisi objek implementasi dari class Titik
  * Pembuat      : Rio Setiawan Hastanu Putra
- * Tanggal      : 19 Februari 2026
+ * Tanggal      : 26 Februari 2026
  */
 
 public class MTitik {
@@ -12,5 +12,11 @@ public class MTitik {
         T1.printTitik();  // mencetak koordinat T1 ke layar
         T1.geser(3,4);    // menggeser T1 sejauh (3,4)
         T1.printTitik();  // menampilkan koordinat T1 setelah digeser
+        
+        Titik T2 = T1;
+        T2.printTitik();
+        T1.setAbsis(10);
+        T1.setOrdinat(10);
+        T2.printTitik();
     }
 }
