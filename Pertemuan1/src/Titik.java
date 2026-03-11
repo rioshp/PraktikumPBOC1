@@ -1,6 +1,7 @@
 /* Nama File    : Titik Java 
  * Deskripsi    : berisi atribut dan method dalam class Titik
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
+ * Lab          : C1
  * Tanggal      : 19 Februari 2026
  */
 

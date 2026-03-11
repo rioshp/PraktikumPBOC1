@@ -1,6 +1,7 @@
 /* Nama File    : MTitik.Java 
  * Deskripsi    : berisi objek implementasi dari class Titik
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
+ * Lab          : C1
  * Tanggal      : 26 Februari 2026
  */
 

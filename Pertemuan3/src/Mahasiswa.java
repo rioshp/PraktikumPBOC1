@@ -17,6 +17,7 @@ public class Mahasiswa {
     private static int counterMhs;
     
     /***************METHOD***************/
+    // Konstruktor
     public Mahasiswa(){
         this.nim = "404";
         this.nama = "anon";
@@ -91,7 +92,46 @@ public class Mahasiswa {
         this.kendaraan = kendaraan;
     }
 
-    public void addMatkul(MataKuliah namaMatkul){
+    // METHOD LAIN
+    // menambahkan mata kuliah ke dalam daftar mata kuliah yang diambil mahasiswa
+    public void addMatKul(MataKuliah namaMatkul){
         listMatkul.add(namaMatkul);
     }
+
+    // Menghitung total SKS dari semua mata kuliah yang diambil
+    public int getJumlahSKS() {
+        int totalSks = 0;
+        for (MataKuliah matkul : listMatkul) {
+        totalSks += matkul.getSks();
+        }
+        return totalSks;
+    }
+
+    // Mengembalikan jumlah mata kuliah yang diambil
+    public int getJumlahMatKul() {
+        return listMatkul.size();
+    }
+
+    // menampilkan informasi dasar tentang mahasiswa, termasuk NIM, nama, dan prodi
+    public void printMhs() {
+        System.out.println("NIM     : " + nim);
+        System.out.println("Nama    : " + nama);
+        System.out.println("Prodi   : " + prodi);
+    }
+
+    // menampilkan detail informasi tentang mahasiswa, termasuk NIM, nama, prodi, dosen wali, kendaraan, dan daftar mata kuliah yang diambil beserta SKS-nya
+  public void printDetailMhs() {
+    printMhs();
+    System.out.println("Daftar Mata Kuliah : ");
+    for (MataKuliah matkul : this.listMatkul) {
+      System.out.println("  - " + matkul.getNamaMatkul() + " (" + matkul.getSks() + " SKS)");
+    }
+    System.out.println("Dosen Wali : ");
+    System.out.println("  - NIP     : " + dosenWali.getNip());
+    System.out.println("  - Nama    : " + dosenWali.getNama());
+    System.out.println("  - Prodi   : " + dosenWali.getProdi());
+    System.out.println("Kendaraan : ");
+    System.out.println("  - No. Plat    : " + kendaraan.getNoPlat());
+    System.out.println("  - Jenis       : " + kendaraan.getJenis());
+  }
 }

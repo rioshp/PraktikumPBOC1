@@ -1,6 +1,7 @@
 /* Nama File    : MGaris.Java 
  * Deskripsi    : berisi objek implementasi dari class Garis
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
+ * Lab          : C1
  * Tanggal      : 26 Februari 2026
  */
 
