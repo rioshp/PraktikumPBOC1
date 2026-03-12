@@ -1,0 +1,47 @@
+/* Nama File    : Lingkaran.java 
+ * Deskripsi    : berisi atribut dan method dalam class Lingkaran
+ * Pembuat      : Rio Setiawan Hastanu Putra
+ * Tanggal      : 12 Maret 2026
+ */
+
+
+public class Lingkaran extends BangunDatar{
+    // ======= ATRIBUT =======
+    private double jari;
+
+    // ======= METHOD =======
+    // Konstruktor
+    public Lingkaran(){
+        setJmlSisi(1);
+    }
+
+    public Lingkaran(double jari, String warna, String border){
+        super(1, warna, border);
+        this.jari = jari;
+    }
+
+    // Selektor
+    public double getJari(){
+        return jari;
+    }
+
+    // Mutator
+    public void setJari(double jari){
+        this.jari = jari;
+    }
+
+    // ======= METHOD LAIN =======
+    public double getLuas(){
+        return Math.PI * Math.pow(jari, 2);
+    }
+
+    public double getKeliling(){
+        return Math.PI * (jari*2);
+    }
+
+    @Override
+    public void printInfo(){
+        super.printInfo();
+        System.out.println("Jari-jari    : " + jari);
+    }
+}

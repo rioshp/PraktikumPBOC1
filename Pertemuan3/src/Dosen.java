@@ -9,7 +9,7 @@ public class Dosen {
     private String nip;
     private String nama;
     private String prodi;
-    private static int counterDosen;
+    private static int counterDosen = 0;
 
     /***************METHOD***************/
     // Konstruktor

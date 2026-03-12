@@ -9,7 +9,7 @@ public class MataKuliah {
     private String IdMatkul;
     private String nama;
     private int sks;
-    private static int counterMatkul;
+    private static int counterMatkul = 0;
 
     /***************METHOD***************/
     // Konstruktor

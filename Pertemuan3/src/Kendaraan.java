@@ -8,7 +8,7 @@ public class Kendaraan {
     /***************ATRIBUT***************/
     private String noPlat;
     private String jenis;
-    private static int counterKendaraan;
+    private static int counterKendaraan = 0;
 
     /***************METHOD***************/
     // Konstruktor

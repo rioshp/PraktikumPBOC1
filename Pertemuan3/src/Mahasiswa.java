@@ -14,7 +14,7 @@ public class Mahasiswa {
     ArrayList<MataKuliah> listMatkul;
     private Dosen dosenWali;
     private Kendaraan kendaraan;
-    private static int counterMhs;
+    private static int counterMhs = 0;
     
     /***************METHOD***************/
     // Konstruktor
