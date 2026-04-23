@@ -24,7 +24,14 @@ public class AngkaSial {
             System.out.println(ase.getMessage());
             System.out.println("hati-hati memasukkan angka!!!");
         } finally {
-            System.out.println("program selesai");
+            System.out.println("program selesai"); // bukti lihat video
         }
     }
 }
+
+// jawab pertanyaan :
+// ketika eksepsi terjadi baris 12 tidak dieksekusi, baris 12 dieksekusi jika angka input bukan 13.
+// baris 21 tidak dieksekusi karena pada baris 20 terjadi eksepsi, sehingga program langsung lompat ke blok catch yang kemudian mengirimkan pesan eksepsi 
+// ke variabel ase, lalu mengeksekusi perintah pada blok catch, dan lanjut ke blok finally untuk mengeksekusi perintah pada blok finally, setelah itu
+// program selesai.
+

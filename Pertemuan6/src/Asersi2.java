@@ -26,3 +26,22 @@ public class Asersi2 {
         System.out.println("Keliling lingkaran = " + kelilingLingkaran);
     }
 }
+
+// konsep nya kurang tepat karena jika dijalankan tidak menggunakan command -ea, maka asersi tidak di eksekusi dan program tetap berjalan walaupun 
+// input jariJari=0, solusinya bisa menggunakan if else agar perintah untuk menjalankan programnya tidak memerlukan -ea(enableassertions), 
+// jadi sifat asersi yang menggunakan if else ini mutlak akan selalu dijalankan jika tidak memenuhi kondisi
+// contoh Solusi menggunakan if else
+/*
+public class Asersi2 {
+    public static void main(String[] args) {
+        double jariJari = 0;
+        if (jariJari > 0) {
+            Lingkaran l = new Lingkaran(jariJari);
+            double kelilingLingkaran = l.hitungKeliling();
+            System.out.println("Keliling lingkaran = " + kelilingLingkaran);
+        } else {
+            System.out.println("Jari-jari tidak boleh nol!!!");
+        }
+    }
+}
+*/
