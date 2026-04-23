@@ -3,6 +3,7 @@
  * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
  * Tanggal      : 14 April 2026
  */
+
 public class AngkaSial {
     public void cobaAngka(int angka) throws AngkaSialException {
         if (angka == 13) {
@@ -22,6 +23,8 @@ public class AngkaSial {
             // method getMessage() telah ada pada kelas "Exception"
             System.out.println(ase.getMessage());
             System.out.println("hati-hati memasukkan angka!!!");
+        } finally {
+            System.out.println("program selesai");
         }
     }
 }
