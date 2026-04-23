@@ -1,6 +1,6 @@
 /* Nama File    : MBangunDatar.Java 
  * Deskripsi    : berisi objek implementasi dari class BangunDatar, Lingkaran, dan Persegi
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
  * Tanggal      : 12 Maret 2026
  */
 

@@ -1,6 +1,6 @@
 /* Nama File    : Lingkaran.java 
  * Deskripsi    : berisi atribut dan method dalam class Lingkaran
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
  * Tanggal      : 26 Maret 2026
  */
 

@@ -1,6 +1,6 @@
 /* Nama File    : BangunDatar.Java 
  * Deskripsi    : berisi atribut dan method dalam class BangunDatar
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
  * Tanggal      : 12 Maret 2026
  */
 

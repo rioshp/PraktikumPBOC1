@@ -1,6 +1,6 @@
 /* Nama File    : IResize.java 
  * Deskripsi    : berisi method-method dalam interface IResize
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
  * Tanggal      : 26 Maret 2026
  */
 

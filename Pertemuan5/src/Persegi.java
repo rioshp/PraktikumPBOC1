@@ -1,6 +1,6 @@
 /* Nama File    : Persegi.java 
  * Deskripsi    : berisi atribut dan method dalam class Persegi
- * Pembuat      : Rio Setiawan Hastanu Putra
+ * Pembuat      : Rio Setiawan Hastanu Putra / 24060124130068
  * Tanggal      : 26 Maret 2026
  */
 

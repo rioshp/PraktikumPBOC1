@@ -11,7 +11,7 @@ public class MManusia {
     Pengusaha pe1 = new Pengusaha("Adhy",LocalDate.of(2000,1,1),"Jl.Air",55000000,"000-556-773-212-000-5");
     Petani pt1 = new Petani("Nugraha",LocalDate.of(1977,1,9),"Jl. Bunga 9 Tembalang",5000000,"wonogiri");
     PNS p2 = new PNS("Panji",LocalDate.of(2010,4,1),"",10000000,"198004212010041002");
- 
+
     p2.setAlamat("Jl. Panorama 111 Tembalang");
 
     System.out.println("Jumlah Manusia = " + Manusia.getCounterMns());
