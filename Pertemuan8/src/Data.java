@@ -16,7 +16,6 @@ public class Data<T> {
         banyak = 0;
     }
 
-    @SuppressWarnings("unchecked")
     public T getIsi(int posisi){
         if(posisi >= 1 && posisi <= kapasitas && posisi <= banyak){
             return (T) ruang[posisi-1];
